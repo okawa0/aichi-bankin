@@ -155,9 +155,35 @@ button {
 =================================== */
 
 @media (min-width: 768px) {
+  .hero__slider {
+    height: 100vh;
+  }
+
+  .hero__title-image {
+    width: 200px;
+  }
+
+  .hero__title-letter {
+    width: 60px;
+  }
+
+  .hero__title-sub {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1024px) {
+  .hero__title-image {
+    width: 280px;
+  }
+
+  .hero__title-letter {
+    width: 90px;
+  }
+
+  .hero__title-sub {
+    width: 600px;
+  }
 }
 
 @media (min-width: 1920px) {
