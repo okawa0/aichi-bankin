@@ -44,6 +44,7 @@ button {
     2. Layout Blocks
 ================================ */
 
+/* ---------- Hero ---------- */
 .hero {
   display: grid;
   place-items: center;
@@ -144,6 +145,82 @@ button {
 .hero__title-sub img {
   width: 100%;
   height: auto;
+}
+
+/* ---------- News ---------- */
+.news {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  gap: 24px;
+}
+
+.news__title-image {
+  display: block;
+  width: 110px;
+}
+
+.news__title-image img {
+  width: 100%;
+  height: auto;
+}
+
+.divider--desktop {
+  display: none;
+}
+
+.news__list-item + .news__list-item {
+  margin-top: 8px;
+}
+
+.news__date {
+  color: #cfcfcf;
+  word-break: break-word;
+}
+
+.news__text {
+  margin-top: 4px;
+  color: #333;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.link-button__text {
+  font-size: 14px;
+  padding-bottom: 4px;
+  border-bottom: #333 1px solid;
+}
+
+.link-button:hover .link-button__text {
+  color: #2b9954;
+  border-bottom: #2b9954 2px solid;
+}
+
+.link-button__icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #eb5b50;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: transform 0.3s;
+  padding-bottom: 8px;
+}
+
+.link-button:hover .link-button__icon {
+  background-color: #2b9954;
+  transform: translateX(10px);
+  transition: transform 0.3s;
 }
 
 /* ================================
