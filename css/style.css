@@ -47,6 +47,7 @@ button {
 .main p {
   font-size: 14px;
   line-height: 27px;
+  color: #333;
 }
 
 /* ---------- Hero ---------- */
@@ -225,11 +226,12 @@ button {
   width: 175px;
 }
 
-.about__text {
+.about__contents .about__text {
   color: #fff;
 }
 
-.about__br {
+/* ---------- What is ---------- */
+.sheet-metal__image--pc {
   display: none;
 }
 
@@ -245,6 +247,10 @@ button {
 .section-title__image img {
   width: 100%;
   height: auto;
+}
+
+.u-br-pc {
+  display: none;
 }
 
 .link-button {
@@ -414,12 +420,21 @@ button {
   .section-title--about {
     justify-content: left;
   }
-  .about__br {
+  .u-br-pc {
     display: block;
   }
   .link-button--right {
     justify-content: right;
     margin: 0;
+  }
+  .sheet-metal__image--sp {
+    display: none;
+  }
+  .sheet-metal__image--pc {
+    display: block;
+  }
+  .sheet-metal__item {
+    display: flex;
   }
 }
 
