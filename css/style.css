@@ -44,6 +44,11 @@ button {
     2. Layout Blocks
 ================================ */
 
+.main p {
+  font-size: 14px;
+  line-height: 27px;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   display: grid;
@@ -155,16 +160,6 @@ button {
   gap: 24px;
 }
 
-.news__title-image {
-  display: block;
-  width: 110px;
-}
-
-.news__title-image img {
-  width: 100%;
-  height: auto;
-}
-
 .divider--desktop {
   display: none;
 }
@@ -186,6 +181,66 @@ button {
   text-overflow: ellipsis;
 }
 
+/* ---------- About ---------- */
+.about {
+  margin-top: 64px;
+  padding: 36px;
+  background-image: url(../images/about__bg--sp.webp);
+  background-size: cover;
+  background-position: 50% 160px;
+  background-repeat: no-repeat;
+}
+
+.about__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__image:nth-child(2) {
+  margin-top: 24px;
+}
+
+.about__image img {
+  width: 100%;
+  height: auto;
+}
+
+.about__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.section-title--about {
+  display: flex;
+  justify-content: right;
+}
+
+.section-title--about .section-title__image {
+  width: 175px;
+}
+
+.about__text {
+  color: #fff;
+}
+
+/* ================================
+    3. Component Blocks
+================================ */
+
+.section-title__image {
+  display: block;
+  width: 110px;
+}
+
+.section-title__image img {
+  width: 100%;
+  height: auto;
+}
+
 .link-button {
   display: flex;
   justify-content: center;
@@ -201,9 +256,19 @@ button {
   border-bottom: #333 1px solid;
 }
 
+.link-button--white .link-button__text {
+  color: #fff;
+  border-bottom: #fff 1px solid;
+}
+
 .link-button:hover .link-button__text {
   color: #2b9954;
   border-bottom: #2b9954 2px solid;
+}
+
+.link-button--white:hover .link-button__text {
+  color: #333;
+  border-bottom: #333 2px solid;
 }
 
 .link-button__icon {
@@ -220,15 +285,23 @@ button {
   padding-bottom: 8px;
 }
 
+.link-button--white .link-button__icon {
+  background-color: #fff;
+  color: #eb5b50;
+}
+
 .link-button:hover .link-button__icon {
   background-color: #2b9954;
   transform: translateX(10px);
   transition: transform 0.3s;
 }
 
-/* ================================
-    3. Component Blocks
-================================ */
+.link-button--white:hover .link-button__icon {
+  background-color: #eb5b50;
+  transform: translateX(10px);
+  transition: transform 0.3s;
+  color: #fff;
+}
 
 /* ==================================
     4. Responsive
@@ -259,7 +332,7 @@ button {
     padding-block: 60px;
   }
 
-  .news__title-image {
+  .section-title__image {
     width: 200px;
   }
 
