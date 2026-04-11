@@ -183,6 +183,8 @@ button {
 
 /* ---------- About ---------- */
 .about {
+  display: flex;
+  flex-direction: column;
   margin-top: 64px;
   padding: 36px;
   background-image: url(../images/about__bg--sp.webp);
@@ -225,6 +227,10 @@ button {
 
 .about__text {
   color: #fff;
+}
+
+.about__br {
+  display: none;
 }
 
 /* ================================
@@ -308,6 +314,10 @@ button {
 =================================== */
 
 @media (min-width: 768px) {
+  .main p {
+    font-size: 16px;
+    line-height: 32px;
+  }
   .hero__slider {
     height: 100vh;
   }
@@ -369,6 +379,48 @@ button {
     width: 50px;
     height: 50px;
   }
+  .about {
+    flex-direction: row;
+    background-image: url(../images/about__bg--pc.webp);
+    background-position: 50% 0;
+    margin-top: 0;
+    padding-top: 80px;
+  }
+  .about__inner {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .about__inner {
+    display: flex;
+    gap: 32px;
+  }
+  .about__images {
+    padding-bottom: 120px;
+    width: 100%;
+  }
+  .about__image:nth-child(2) {
+    margin-top: 64px;
+  }
+  .about__contents {
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    gap: 24px;
+  }
+  .section-title--about .section-title__image {
+    width: 300px;
+  }
+  .section-title--about {
+    justify-content: left;
+  }
+  .about__br {
+    display: block;
+  }
+  .link-button--right {
+    justify-content: right;
+    margin: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -382,6 +434,12 @@ button {
 
   .hero__title-sub {
     width: 600px;
+  }
+  .about {
+    padding-top: 160px;
+  }
+  .about__inner {
+    gap: 80px;
   }
 }
 
