@@ -231,8 +231,48 @@ button {
 }
 
 /* ---------- What is ---------- */
+.sheet-metal {
+  padding: 40px 24px 64px;
+}
+
+.section-title--sheet-metal .section-title__image {
+  width: 150px;
+}
+
+.sheet-metal__image--sp {
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.sheet-metal__image--sp img {
+  width: 100%;
+}
+
 .sheet-metal__image--pc {
   display: none;
+}
+
+.sheet-metal__image {
+  display: block;
+  margin-top: 16px;
+}
+
+.sheet-metal__image img {
+  width: 100%;
+}
+
+.sheet-metal__text {
+  margin-top: 8px;
+}
+
+.sheet-metal__subtitle {
+  font-size: 16px;
+  color: #2b9954;
+}
+
+.link-button.link-button--sheet-metal {
+  margin-top: 24px;
 }
 
 /* ================================
@@ -427,11 +467,33 @@ button {
     justify-content: right;
     margin: 0;
   }
+  .sheet-metal__body {
+    margin-top: -120px;
+    padding: 55px;
+    border-radius: 32px;
+    background-color: #fff;
+  }
+  .sheet-metal__inner {
+    border-radius: 32px;
+    background-color: #efefef;
+  }
   .sheet-metal__image--sp {
     display: none;
   }
   .sheet-metal__image--pc {
     display: block;
+    width: 100%;
+  }
+  .sheet-metal__image--pc img {
+    width: 100%;
+    height: auto;
+  }
+  .sheet-metal__image {
+    width: 100%;
+  }
+  .sheet-metal__image img {
+    width: 100%;
+    height: auto;
   }
   .sheet-metal__item {
     display: flex;
