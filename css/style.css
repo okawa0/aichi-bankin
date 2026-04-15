@@ -564,6 +564,13 @@ button {
   .link-button--area{
     margin-top: 32px;
   }
+  .banner__image{
+    margin-block: 120px;
+    max-width:1200px;
+  }
+  .banner__image:hover{
+    opacity: 0.5;
+  }
 }
 
 @media (min-width: 1024px) {
