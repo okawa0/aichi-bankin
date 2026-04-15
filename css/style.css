@@ -276,14 +276,14 @@ button {
 }
 
 /* ---------- Area ---------- */
-/* .area__image{
-  width: 100%;
-  height: auto;
-} */
-
 .area__image img {
   width: 100%;
   height: auto;
+}
+
+.area__text{
+  width: 85%;
+  margin: 24px auto 16px;
 }
 
 /* ================================
@@ -541,6 +541,12 @@ button {
   .sheet-metal__subtitle {
     font-size: 25px;
     color: #333;
+  }
+  .area__text{
+    display: none;
+  }
+  .link-button--area{
+    margin-top: 32px;
   }
 }
 
