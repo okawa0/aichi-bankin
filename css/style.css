@@ -187,7 +187,7 @@ button {
   display: flex;
   flex-direction: column;
   margin-top: 64px;
-  padding: 36px;
+  padding: 30px;
   background-image: url(../images/about__bg--sp.webp);
   background-size: cover;
   background-position: 50% 160px;
@@ -232,7 +232,7 @@ button {
 
 /* ---------- What is ---------- */
 .sheet-metal {
-  padding: 40px 24px 64px;
+  padding: 40px 30px 64px;
 }
 
 .section-title--sheet-metal .section-title__image {
@@ -281,25 +281,52 @@ button {
   height: auto;
 }
 
-.area__text{
-  width: 85%;
-  margin: 24px auto 16px;
+.area__text {
+  margin-block: 24px 16px;
+  padding-inline: 30px;
 }
 
 /* ---------- Banner ---------- */
-.banner{
+.banner {
   margin-block: 64px;
 }
 
-.banner__image{
-  margin-inline: auto;
+.banner__image {
+  padding-inline: 30px;
   display: block;
-  width: 85%;
 }
 
-.banner__image img{
+.banner__image img {
   width: 100%;
   height: auto;
+}
+
+/* ---------- access ---------- */
+.access{
+  padding-inline: 30px;
+}
+
+.section-title--access {
+  display: flex;
+  justify-content: right;
+}
+
+.section-title--access .section-title__image {
+  width: 240px;
+}
+
+.access__map {
+  margin-top: 32px;
+  width: 100%;
+  height: 240px;
+}
+
+.access__info{
+  margin-top: 16px;
+}
+
+.location{
+  margin-top: 16px;
 }
 
 /* ================================
@@ -558,17 +585,17 @@ button {
     font-size: 25px;
     color: #333;
   }
-  .area__text{
+  .area__text {
     display: none;
   }
-  .link-button--area{
+  .link-button--area {
     margin-top: 32px;
   }
-  .banner__image{
-    margin-block: 120px;
-    max-width:1200px;
+  .banner__image {
+    margin: 120px auto;
+    max-width: 1200px;
   }
-  .banner__image:hover{
+  .banner__image:hover {
     opacity: 0.5;
   }
 }
