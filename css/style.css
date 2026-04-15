@@ -473,16 +473,26 @@ button {
     border-radius: 32px;
     background-color: #fff;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin-inline: auto;
   }
   .sheet-metal__inner {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 2vw;
     padding: 40px;
     border-radius: 32px;
     background-color: #efefef;
+  }
+  .sheet-metal__inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 80px;
+        background-color: #2b9954;
   }
   .sheet-metal__image--sp {
     display: none;
