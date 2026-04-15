@@ -275,6 +275,17 @@ button {
   margin-top: 24px;
 }
 
+/* ---------- Area ---------- */
+/* .area__image{
+  width: 100%;
+  height: auto;
+} */
+
+.area__image img {
+  width: 100%;
+  height: auto;
+}
+
 /* ================================
     3. Component Blocks
 ================================ */
@@ -488,11 +499,11 @@ button {
   .sheet-metal__inner::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 64px;
     left: 0;
     width: 4px;
     height: 80px;
-        background-color: #2b9954;
+    background-color: #2b9954;
   }
   .sheet-metal__image--sp {
     display: none;
