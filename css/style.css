@@ -286,6 +286,22 @@ button {
   margin: 24px auto 16px;
 }
 
+/* ---------- Banner ---------- */
+.banner{
+  margin-block: 64px;
+}
+
+.banner__image{
+  margin-inline: auto;
+  display: block;
+  width: 85%;
+}
+
+.banner__image img{
+  width: 100%;
+  height: auto;
+}
+
 /* ================================
     3. Component Blocks
 ================================ */
