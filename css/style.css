@@ -468,12 +468,19 @@ button {
     margin: 0;
   }
   .sheet-metal__body {
-    margin-top: -120px;
-    padding: 55px;
+    margin-top: -60px;
+    padding: 32px;
     border-radius: 32px;
     background-color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
   }
   .sheet-metal__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 40px;
     border-radius: 32px;
     background-color: #efefef;
   }
@@ -483,6 +490,7 @@ button {
   .sheet-metal__image--pc {
     display: block;
     width: 100%;
+    margin-block: auto;
   }
   .sheet-metal__image--pc img {
     width: 100%;
@@ -490,6 +498,7 @@ button {
   }
   .sheet-metal__image {
     width: 100%;
+    margin-block: auto;
   }
   .sheet-metal__image img {
     width: 100%;
@@ -497,6 +506,20 @@ button {
   }
   .sheet-metal__item {
     display: flex;
+    gap: 2vw;
+  }
+  .section-title--sheet-metal .section-title__image {
+    width: 260px;
+  }
+  .sheet-metal__content {
+    width: 100%;
+  }
+  .divider--desktop--sheet-metal {
+    margin-top: 16px;
+  }
+  .sheet-metal__subtitle {
+    font-size: 25px;
+    color: #333;
   }
 }
 
