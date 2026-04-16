@@ -690,8 +690,42 @@ button {
     margin: 0;
     height: 100%;
   }
-  .location{
-      padding-left: 1em;
+  .location {
+    padding-left: 1em;
+  }
+  .system {
+    flex-direction: row;
+    background-image:none;
+    margin-top: 0;
+    padding-top: 80px;
+  }
+  .system__inner {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .system__inner {
+    display: flex;
+    gap: 32px;
+  }
+  .system__images {
+    padding-bottom: 120px;
+    width: 100%;
+  }
+  .system__image:nth-child(2) {
+    margin-top: 64px;
+  }
+  .system__contents {
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    gap: 24px;
+  }
+  .section-title--system .section-title__image {
+    width: 590px;
+  }
+  .section-title--system {
+    justify-content: left;
   }
 }
 
