@@ -471,7 +471,9 @@
               <p class="location__text">愛知県名古屋市昭和区北山町3-8-6</p>
               <p class="location__text">TEL&emsp;052-732-1226</p>
               <p class="location__text">FAX&emsp;052-732-1733</p>
-              <p class="location__text">E-mail&emsp;aichikenban@orion.ocn.ne.jp</p>
+              <p class="location__text">
+                E-mail&emsp;aichikenban@orion.ocn.ne.jp
+              </p>
             </section>
           </section>
         </div>
@@ -480,8 +482,13 @@
         <div class="system__inner">
           <div class="system__images">
             <picture class="system__image">
+              <source
+                srcset="images/system1--pc.webp"
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
               <img
-                src="images/system1.webp"
+                src="images/system1--sp.webp"
                 alt="結束線とハッカーを使って鉄筋を組み立てる作業員の手元"
                 width="270"
                 height="430"
@@ -489,8 +496,13 @@
               />
             </picture>
             <picture class="system__image">
+              <source
+                srcset="images/system2--pc.webp"
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
               <img
-                src="images/system2.webp"
+                src="images/system2--sp.webp"
                 alt="タブレット端末を見ながら現場を確認する現場監督"
                 width="270"
                 height="430"
@@ -521,10 +533,10 @@
             </p>
             <a
               href="#"
-              class="link-button link-button--white link-button--right"
+              class="link-button link-button--white link-button--right link-button--system"
             >
               <span class="link-button__text">もっと見る</span>
-              <span class="link-button__icon">› </span>
+              <span class="link-button__icon">›</span>
             </a>
           </div>
         </div>
