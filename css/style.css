@@ -623,6 +623,28 @@ button {
   .section-title--access .section-title__image {
     width: 660px;
   }
+  .access {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+  .access__contents {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    gap: 24px;
+    box-sizing: border-box;
+    padding-right: 16px;
+  }
+  .access__map {
+    margin: 0;
+    height: 100%;
+  }
+  .location{
+      padding-left: 1em;
+  }
 }
 
 @media (min-width: 1024px) {
