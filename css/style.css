@@ -348,6 +348,54 @@ button {
   margin-top: 16px;
 }
 
+/* ---------- System ---------- */
+.system {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  padding: 30px;
+  background-image: url(../images/about__bg--sp.webp);
+  background-size: cover;
+  background-position: 50% 160px;
+  background-repeat: no-repeat;
+}
+
+.system__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.system__image:nth-child(1) {
+  margin-top: 24px;
+}
+
+.system__image img {
+  width: 100%;
+  height: auto;
+}
+
+.system__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.section-title--system {
+  display: flex;
+  justify-content: left;
+}
+
+.section-title--system .section-title__image {
+  width: 175px;
+}
+
+.system__contents .system__text {
+  color: #fff;
+}
+
 /* ================================
     3. Component Blocks
 ================================ */
