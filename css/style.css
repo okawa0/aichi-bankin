@@ -302,7 +302,7 @@ button {
 }
 
 /* ---------- access ---------- */
-.access{
+.access {
   padding-inline: 30px;
 }
 
@@ -321,11 +321,30 @@ button {
   height: 240px;
 }
 
-.access__info{
+.access__info {
   margin-top: 16px;
+  font-size: 14px;
+  color: #333;
 }
 
-.location{
+.transport {
+  margin-top: 8px;
+}
+
+.transport__list {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.transport__list-item {
+  line-height: 27px;
+}
+
+.transport__title {
+  font-weight: 400;
+}
+
+.location {
   margin-top: 16px;
 }
 
@@ -597,6 +616,12 @@ button {
   }
   .banner__image:hover {
     opacity: 0.5;
+  }
+  .section-title--access {
+    justify-content: left;
+  }
+  .section-title--access .section-title__image {
+    width: 660px;
   }
 }
 
